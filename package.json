@@ -16,9 +16,6 @@
     "email:dev": "email dev --dir ./src/emails",
     "clear:next": "rm -rf .next"
   },
-  "engines": {
-    "node": "20.x"
-  },
   "dependencies": {
     "@auth/core": "^0.31.0",
     "@aws-sdk/client-s3": "3.583.0",
@@ -105,7 +102,6 @@
     "tsx": "^4.11",
     "typescript": "^5.4.5"
   },
-  "packageManager": "pnpm@8.15.7",
   "trustedDependencies": [
     "@swc/core",
     "es5-ext",

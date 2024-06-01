@@ -29,7 +29,7 @@ export const media: CollectionConfig = {
   },
   hooks: {
     beforeOperation: [addContentHashToFile],
-    afterChange: [updateCacheControl, handleSvgUpload]
+    afterChange: [handleSvgUpload]
   },
   fields: [
     {
